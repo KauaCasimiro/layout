@@ -5,16 +5,21 @@
     align-items: center;
     flex-direction: column;
     background: linear-gradient(#121212, #212B46);
+    color: white; /* Alterado para preto */
 }
 
 .title {
-    font-size: 85px;
-    color: white;
+    font-size: 60px;
     animation: fliptitle 2s;
 }
 
+.list {
+    margin-top: 15px;
+    font-size: 18pt;
+}
+
 @keyframes fliptitle {
-    from{
+    from {
         transform: rotateX(90deg);
     }
     to {
@@ -28,7 +33,7 @@
     margin: 34px 0;
     display: flex;
     border-radius: 8px;
-    box-shadow: 1px 3px, 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .containerInput input {
@@ -38,12 +43,11 @@
     color: #FFF;
     outline: none;
     margin-right: 8px;
-
 }
 
 .containerInput input::placeholder {
     color: #f1f1f1;
-}   
+}
 
 .buttonSearch {
     background-color: transparent;
@@ -55,7 +59,7 @@
     transition: transform 0.5s;
 }
 
-.buttonSearch:hover{
+.buttonSearch:hover {
     transform: scale(1.2);
 }
 
@@ -65,31 +69,35 @@
     align-items: center;
     flex-direction: column;
     background-color: #FFF;
-    width: 500px;
+    max-width: 90%; /* Defina a largura máxima desejada */
     border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #000000;
+    overflow-y: auto; /* Adicione rolagem vertical se necessário */
 }
 
 .main h2 {
     margin: 16px 0;
     font-size: 39px;
+    color: #000000;
 }
 
-.main span {
-    margin-bottom: 16px;
-    font-weight: bold;
-
+.dataDisplay {
+    max-width: 400px; /* Defina a largura máxima desejada */
+    overflow-x: auto; /* Adicione rolagem horizontal se necessário */
 }
 
-@media (max-width: 620px){
-    .title{
-        font-size: 60px;
+@media (max-width: 620px) {
+    .title {
+        font-size: 40px;
     }
 
     .main h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
-    .main{
+    .main {
         width: 80%;
         min-height: 250px;
     }
