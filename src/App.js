@@ -9,8 +9,6 @@ function App() {
   const [erro, setErro] = useState('');
   const [operation, setOperation] = useState('Sua Operação Aqui!');
 
-  
-
   async function handleSearch(endpoint) {
     try {
       const response = await api.get(`/${endpoint}`);
