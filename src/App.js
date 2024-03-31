@@ -23,8 +23,8 @@ function App() {
   }
 
   function updateOperation(endpoint) {
-    switch (endpoint) {
-      case 'desempenho' || 'Desempenho':
+    switch (endpoint.toLowerCase()) {
+      case 'desempenho':
         setOperation('Desempenho Mensal');
         break;
       case 'lucros-mensais':
