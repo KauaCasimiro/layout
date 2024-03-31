@@ -1,6 +1,7 @@
 # Gestão Financeira
 
-Este projeto é uma aplicação web desenvolvida para auxiliar na gestão financeira, permitindo o acompanhamento de dados como desempenho mensal, lucros mensais, gastos mensais e informações gerais relacionadas às finanças de um negócio ou pessoa.
+Este projeto é uma continuação de um projeto desenvolvido anteriormente, o projeto consiste em aplicação web desenvolvida para auxiliar na gestão financeira, permitindo o acompanhamento de dados como desempenho mensal, lucros mensais, gastos mensais e informações gerais relacionadas às finanças de um negócio ou pessoa.
+(Todos os dados utilizados são totalmente fictícios).
 
 ## Tecnologias Utilizadas:
 - ReactJS
@@ -26,7 +27,7 @@ Este projeto é uma aplicação web desenvolvida para auxiliar na gestão financ
 - Link para o Site: [Gestão Financeira](https://gestao-financeira-inky.vercel.app/)
 - Link para a Apresentação no LinkedIn: [Insira o link para a postagem do LinkedIn aqui]
 
-## Tópicos/Tags Selecionados:
+## Tópicos
 - #GestãoFinanceira
 - #Finanças
 - #ControleDeGastos
