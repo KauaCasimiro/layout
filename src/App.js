@@ -42,8 +42,8 @@ function App() {
   }
 
   function handleKeyPress(event) {
-    if (event.key === 'Enter' && input.trim() !== '') { // Verifica se não é um espaço em branco
-      handleSearch(input.trim()); // Remove espaços em branco antes e depois da string
+    if (event.key === 'Enter' && input.trim() !== '') {
+      handleSearch(input.trim());
     }
   }
 
