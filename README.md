@@ -25,7 +25,7 @@ Este projeto é uma continuação de um projeto desenvolvido anteriormente, o pr
 
 ## About:
 - [Link para o Site Gestão Financeira](https://gestao-financeira-inky.vercel.app/)
-- [Link para a Apresentação no LinkedIn](https://www.linkedin.com/posts/kau%C3%A3-araujo-casimiro-453b47260_ol%C3%A1-comunidade-do-linkedin-venho-activity-7180058251974033408-AXkj?utm_source=share&utm_medium=member_desktop)]
+- [Link para a Apresentação no LinkedIn](https://www.linkedin.com/posts/kau%C3%A3-araujo-casimiro-453b47260_ol%C3%A1-comunidade-do-linkedin-venho-activity-7180058251974033408-AXkj?utm_source=share&utm_medium=member_desktop)
 
 ## Tópicos
 - #GestãoFinanceira
